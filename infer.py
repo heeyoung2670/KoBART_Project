@@ -12,9 +12,9 @@ def load_model():
 model = load_model()
 tokenizer = get_kobart_tokenizer()
 st.title("KoBART Translation Test")
-text = st.text_area("한글 문장 입력:")
+text = st.text_area("영어 문장 입력:")
 
-st.markdown("### 한글 문장")
+st.markdown("### 영어 문장")
 st.write(text)
 
 if text:
